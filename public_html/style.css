@@ -1,0 +1,134 @@
+
+/* 
+    Created on : 4-mag-2017, 18.31.54
+    Author     : cristian
+*/
+
+/*----------------------------Main----------------------------------*/
+
+body{
+    margin:  0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    
+}
+
+h2{
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-weight:normal;
+    margin: 0px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    transition: color 300ms;
+    color:#c52d2f;
+}
+/*---------------------------Header-------------------------------*/
+
+#header{
+     padding-top: 25px;
+    min-width: 1000px;
+    background:#191919;
+}
+
+#tophd {
+    border-bottom: 1px solid #222;
+    background:#191919;
+    height: 25px;
+    display:block;
+}
+#social{
+    float:right;
+    border-bottom: 1px solid #222;
+    padding-right: 15px;
+    background:#151515;
+    display: inline-block;
+}
+#bottomhd{
+    display:block;
+    min-width: 1000px;
+    background:#191919;
+    }
+#brand{
+        padding: 15px 0px 80px 30px;
+        display: inline-block;
+       }
+ 
+#log{
+        padding: 15px 0px 80px 30px;
+        float:right;
+        display: inline-block;
+       }
+/*---------------------------Feature--------------------------------*/
+
+#feature{
+        padding:70px 0;
+        background: #f2f2f2;
+        padding-bottom: 40px;
+        width: 960px;
+        margin: 0 auto;
+}
+
+/*---------------------------Partner--------------------------------*/
+
+#partner{
+        background: url(./img/partners/partner_bg.png) 50% 50% no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        height: 25em;
+        min-width: 1000px;
+}
+
+#block{
+        padding: 10em 10px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+#part {
+   
+    display: inline-block;
+    width: 19.6%;
+    
+}
+
+/*---------------------------Footer---------------------------------*/
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2e2e2e;
+    min-width: 1000px;
+}
+
+#riga{
+   display:block;
+}
+   
+#diritti{
+    display: inline-block;
+    margin:0px 25px;
+  }
+  
+#menufooter{
+      display: inline-block;
+      float:right;
+      margin:0px 25px;
+  }
+
+#lista{
+   margin-left: 20px;
+    display: inline-block;
+}
