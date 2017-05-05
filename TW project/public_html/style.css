@@ -1,0 +1,117 @@
+/*----------------------------Main----------------------------------*/
+
+body{background: red;
+    margin:  0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    
+}
+
+h2{
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/*---------------------------Header-------------------------------*/
+
+#header{
+        background:#191919;
+}
+
+#tophd {
+    padding: 10px 0;
+    border-bottom: 1px solid #222;
+    line-height: 28px;
+    height: 25px;
+}
+#social{
+    float:right;
+    border-bottom: 1px solid #222;
+    padding-right: 15px;
+
+}
+#bottomhd{
+    margin-left: 15em;
+    padding: 15px 25px;
+    min-width: 1000px;
+}
+#brand{
+    float:left;
+        width: 14em;
+        margin-left: -15em;
+}
+
+/*---------------------------Feature--------------------------------*/
+
+#feature{
+        padding:70px 0;
+        background: #f2f2f2;
+        padding-bottom: 40px;
+        width: 960px;
+        margin: 0 auto;
+}
+
+/*---------------------------Partner--------------------------------*/
+
+#partner{
+        background: url(./img/partners/partner_bg.png) 50% 50% no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        height: 25em;
+        min-width: 1000px;
+}
+
+#block{
+        padding: 10em 10px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+li {
+    display: inline-block;
+    width: 20%;
+}
+
+/*---------------------------Footer---------------------------------*/
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2e2e2e;
+    
+}
+
+#riga{
+    fload:right;
+    /*
+      padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    */
+    margin-left: 20em;
+    padding: 15px 25px;
+}
+   
+#diritti{
+    width: 24em;
+    clear: right;
+    padding: 0em 0.5em;
+    margin-left: -20em;
+  }
+  #menufooter{
+      
+      left:30em;
+          
+  }
+  #munufooter.lu{
+      margin-right: 35em;
+  }
+#menufooter.li{
+      display: inline-block;
+      margin-left: 5px;
+  }
